@@ -180,10 +180,13 @@ a {
     border-bottom: 1px solid #E4E4E6;
 }
 
-.recap-abb ul {
+/* .recap-abb ul {
     list-style: image(<i class="far fa-check"></i>);
-}
+} */
 
+.recap-abb li {
+    padding: 20px 0;
+}
 
 
 
