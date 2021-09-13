@@ -98,6 +98,7 @@ a {
 
 .button-hero {
     margin-bottom: 10px;
+    display: inline-block;
 }
 
 .canc-abb {
@@ -128,6 +129,10 @@ a {
     padding: 20px;
 }
 
+.column-box ul {
+    list-style: none;
+}
+
 .column {
     border: 1px solid #E4E4E6;
 }
@@ -137,6 +142,53 @@ a {
     border-bottom: 1px solid #E4E4E6;
 }
 
+.features-abb, .recap-abb {
+    padding: 20px;
+}
+
+.type-abb li {
+    padding: 20px 0;
+}
+
+.type-abb li:last-child {
+    padding-top: 0px;
+    color: #637381;
+    font-size: 14px;
+}
+
+.function-abb li {
+    padding: 20px 0 ;
+}
+
+.button-container {
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.alt-link-container {
+    padding: 20px 0;
+}
+
+.alt-link {
+    text-decoration: underline;
+    color: blue;    
+}
+
+.separator {
+    width: 20%;
+    border-bottom: 1px solid #E4E4E6;
+}
+
+.recap-abb ul {
+    list-style: image(<i class="far fa-check"></i>);
+}
+
+
+
+
+
+
 /******************************************
 Classi utili
 ******************************************/
@@ -145,7 +197,6 @@ Classi utili
 .bt {
     background-color: #1970FF;
     color: white;
-    display: inline-block;
     padding: 6px 15px;
 }
 
