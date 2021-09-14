@@ -31,10 +31,6 @@ a {
 
 /* ID */
 
-#jumbo {
-    max-width: 100%;
-    padding: 20px;
-}
 
 /* Classi */
 
@@ -85,6 +81,12 @@ a {
     padding-top: 100px;
     position: relative;
     top: 100px;
+}
+
+
+.jumbo-img, .partner-img {
+    max-width: 100%;
+    padding: 20px;
 }
 
 .content-subtitle {
@@ -180,14 +182,32 @@ a {
     border-bottom: 1px solid #E4E4E6;
 }
 
-/* .recap-abb ul {
-    list-style: image(<i class="far fa-check"></i>);
-} */
+.recap-abb ul {
+    list-style: url(../img/check-solid.svg);
+}
 
 .recap-abb li {
     padding: 20px 0;
 }
 
+.sales-office-button {
+    position: absolute;
+    top: 20px;
+    right: 80px;
+}
+
+.partner-description {
+    padding: 20px;
+}
+
+.parag-partner {
+    padding-top: 20px;
+}
+
+.partner-button {
+    padding-top: 20px;
+    display: inline-block;
+}
 
 
 
@@ -227,4 +247,8 @@ Classi utili
 
 .col-5_9 {
     width: calc(100% / 9 * 5);
+}
+
+.col-9 {
+    width: 100%;
 }
