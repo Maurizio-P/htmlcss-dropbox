@@ -84,7 +84,9 @@ a {
 }
 
 
-.jumbo-img, .partner-img {
+.jumbo-img, 
+.partner-img,
+.bus-img {
     max-width: 100%;
     padding: 20px;
 }
@@ -137,6 +139,10 @@ a {
 
 .column {
     border: 1px solid #E4E4E6;
+}
+
+.column-same-height {
+    min-height: 1200px;
 }
 
 .column section {
@@ -209,8 +215,55 @@ a {
     display: inline-block;
 }
 
+.dropbox-business {
+    padding: 0 20px;
+    padding-top: 50px;
+}
 
+.square {
+    padding: 20px;
+}
 
+.square-title {
+    padding-bottom: 20px;
+}
+
+.title-bus-footer {
+    padding: 20px;
+    padding-top: 60px;
+}
+
+.find-more-container {
+    margin-top: 20px;
+}
+
+.find-more {
+    text-decoration: underline;
+    color: blue;
+}
+
+.square-company-container {
+    background-color: cadetblue;
+}
+
+.company-container {
+    float: left;
+    min-height: 200px;
+    width: 30%;
+    
+}
+
+.text-company-center {
+    width: 40%;
+    float: left;
+}
+
+.square-company {
+    float: left;
+    width: 50%;
+    height: 15vw;   
+    border: 1px solid;
+}
 
 /******************************************
 Classi utili
@@ -247,6 +300,10 @@ Classi utili
 
 .col-5_9 {
     width: calc(100% / 9 * 5);
+}
+
+.col-6_9 {
+    width: calc(100% / 9 * 6);
 }
 
 .col-9 {
