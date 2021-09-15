@@ -133,7 +133,7 @@ a {
     padding: 20px;
 }
 
-.column-box ul {
+.column-box ul, .frequent-ask ul {
     list-style: none;
 }
 
@@ -243,7 +243,7 @@ a {
 }
 
 .square-company-container {
-    background-color: cadetblue;
+    margin-top: 50px;
 }
 
 .company-container {
@@ -256,6 +256,7 @@ a {
 .text-company-center {
     width: 40%;
     float: left;
+    padding: 50px;
 }
 
 .square-company {
@@ -263,6 +264,105 @@ a {
     width: 50%;
     height: 15vw;   
     border: 1px solid;
+    position: relative;
+}
+
+.company-img {
+    max-width: 100%;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(100%);
+}
+
+.author-center-company {
+    margin: 50px 0;
+}
+
+.dropbox-business2 {
+    background-color: #B4D0E7;
+}
+
+.container2 {
+    width: 1135px;
+    margin: 0 auto;
+    padding: 140px 20px;
+}
+
+.title-bus {
+    color: #61082B;
+}
+
+.button-container-testfree {
+    text-align: right;
+}
+
+.button-testfree {
+    display: inline-block;
+}
+
+.frequent-ask {
+    padding: 20px;
+    position: relative;
+}
+
+.row-ask {
+    border-bottom: 1px solid;
+    padding: 20px 0;
+}
+
+.ask {
+    position: relative;
+}
+
+.ask-link {
+    color: black;
+}
+
+.arrow {
+    position: absolute;
+    right: 0;
+}
+
+
+
+
+
+
+/* FOOTER */
+
+.container-big2 {
+    max-width: 1367px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.footer {
+    background-color: black;
+
+}
+
+.footer-list ul {
+    list-style: none;
+}
+
+.footer-list li {
+    padding: 10px 0;
+}
+.footer-list li a {
+    color: white;
+}
+
+.footer-list li:first-child {
+    padding-bottom: 40px;
+    color: white;
+}
+
+.separator-footer {
+    margin: 20px;
+    width: 20%;
+    border-bottom: 1px solid #E4E4E6;
 }
 
 /******************************************
@@ -271,15 +371,52 @@ Classi utili
 
 
 .bt {
-    background-color: #1970FF;
-    color: white;
     padding: 6px 15px;
 }
 
-.row {
+.blue-bt {
+    background-color: #1970FF;
+    color: white;
+}
+
+.white-bt {
+    background-color: white;
+    color: black;
+    border: 1px solid;
+}
+
+.row::after {
     content: "";
     display: table;
     clear: both;
+}
+
+.green-square {
+    background-color: #a2d39b;
+}
+
+.bordeux-square {
+    background-color: #61082b;
+}
+
+.blue-square {
+    background-color: #25398D;
+}
+
+.red-square {
+    background-color: #ff1c1c;
+}
+
+.azure-square {
+    background-color: #B4D0E7;
+}
+
+.lightblue-square {
+    background-color: #0093ce;
+}
+
+.yellow-square {
+    background-color: #FFD830;
 }
 
 [class*="col-"] {
@@ -306,6 +443,15 @@ Classi utili
     width: calc(100% / 9 * 6);
 }
 
+.col-8_9 {
+    width: calc(100% / 9 * 8);
+}
+
 .col-9 {
     width: 100%;
+}
+
+
+.col-1_5 {
+    width: calc(100% / 5);
 }
