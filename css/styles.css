@@ -308,9 +308,18 @@ a {
     position: relative;
 }
 
+.frequent-ask li:first-child {
+    padding-bottom: 30px;
+    background-color: white;
+}
+
 .row-ask {
     border-bottom: 1px solid;
     padding: 20px 0;
+}
+
+.row-ask:hover {
+    background-color: rgb(207, 207, 207);
 }
 
 .ask {
@@ -323,7 +332,7 @@ a {
 
 .arrow {
     position: absolute;
-    right: 0;
+    right: 20px;
 }
 
 
