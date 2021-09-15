@@ -310,7 +310,7 @@ a {
 
 .frequent-ask li:first-child {
     padding-bottom: 30px;
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .row-ask {
