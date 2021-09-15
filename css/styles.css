@@ -83,7 +83,9 @@ a {
     top: 100px;
 }
 
-
+.arrow-hero {
+    animation: slide-down-arrow 2s infinite;
+}
 .jumbo-img, 
 .partner-img,
 .bus-img {
@@ -319,7 +321,7 @@ a {
 }
 
 .row-ask:hover {
-    background-color: rgb(207, 207, 207);
+    background-color: rgb(231, 230, 230);
 }
 
 .ask {
@@ -333,8 +335,13 @@ a {
 .arrow {
     position: absolute;
     right: 20px;
+    transition: .5s;
 }
 
+.text-ask {
+    padding: 20px 30px;
+    display: none;
+}
 
 
 
@@ -381,6 +388,7 @@ Classi utili
 
 .bt {
     padding: 6px 15px;
+    transition: 1s;
 }
 
 .blue-bt {

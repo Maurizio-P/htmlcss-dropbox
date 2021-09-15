@@ -1,0 +1,32 @@
+@keyframes slide-down-arrow {
+    0% {
+        top: 0;
+    }
+    
+    50% {
+        top: 50px;
+    }
+
+    100%{
+        top: 0;
+    }
+}
+
+
+
+.row-ask:focus {
+    background-color: rgb(231, 230, 230);
+}
+
+.row-ask:focus p {
+    display: block;
+}
+
+.row-ask:focus .arrow {
+    transform: rotate(180deg);
+}
+
+.bt:hover {
+    border-radius: 10px;
+    box-shadow: 2px 2px;
+}
