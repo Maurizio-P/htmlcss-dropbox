@@ -83,9 +83,6 @@ a {
     top: 100px;
 }
 
-.arrow-hero {
-    animation: slide-down-arrow 2s infinite;
-}
 .jumbo-img, 
 .partner-img,
 .bus-img {
@@ -381,6 +378,20 @@ a {
     border-bottom: 1px solid #E4E4E6;
 }
 
+.select-language {
+    padding: 20px 0 30px;
+}
+
+.language {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    color: rgb(231, 230, 230);
+}
+
+.fa-globe-europe {
+    color: rgb(231, 230, 230);
+}
+
 /******************************************
 Classi utili
 ******************************************/
@@ -388,18 +399,20 @@ Classi utili
 
 .bt {
     padding: 6px 15px;
-    transition: 1s;
+    border-radius: 10px;
 }
 
 .blue-bt {
     background-color: #1970FF;
     color: white;
+    transition: all .3s;
 }
 
 .white-bt {
     background-color: white;
     color: black;
     border: 1px solid;
+    transition: all .3s;
 }
 
 .row::after {

@@ -1,3 +1,13 @@
+.language:focus {
+    color: black;
+}
+
+
+.arrow-hero {
+    animation: slide-down-arrow 2s infinite;
+    position: relative;
+}
+
 @keyframes slide-down-arrow {
     0% {
         top: 0;
@@ -26,7 +36,10 @@
     transform: rotate(180deg);
 }
 
-.bt:hover {
-    border-radius: 10px;
-    box-shadow: 2px 2px;
+.blue-bt:hover {
+    box-shadow: 2px 2px 5px rgb(104, 104, 104);
+}
+
+.white-bt:hover {
+    box-shadow: 2px 2px 5px rgb(170, 170, 170);
 }
