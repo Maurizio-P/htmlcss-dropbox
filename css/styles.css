@@ -128,6 +128,49 @@ a {
     padding-bottom: 20px;
 }
 
+.container-input {
+    position: relative;
+    cursor: pointer;
+    padding-left: 25px;
+}
+
+.container-input input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.check {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: rgb(231, 230, 230);
+    border-radius: 50%;
+}
+
+.check::after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container-input input:checked ~ .check:after {
+    display: inline-block;
+}
+
+.container-input .check:after {
+    background-color: white;
+    border-radius: 50%;
+    top: 4px;
+    left: 4px;
+    width: 8px;
+    height: 8px;
+}
+
 .column-box {
     padding: 20px;
 }
@@ -163,8 +206,9 @@ a {
     font-size: 14px;
 }
 
-.function-abb li {
-    padding: 20px 0 ;
+.function-abb li,
+.recap-abb li {
+    padding: 20px;
 }
 
 .button-container {
@@ -187,12 +231,8 @@ a {
     border-bottom: 1px solid #E4E4E6;
 }
 
-.recap-abb ul {
-    list-style: url(../img/check-solid.svg);
-}
-
-.recap-abb li {
-    padding: 20px 0;
+ul li i:first-child {
+    margin-left: -20px;
 }
 
 .sales-office-button {

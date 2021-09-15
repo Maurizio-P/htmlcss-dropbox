@@ -43,3 +43,12 @@
 .white-bt:hover {
     box-shadow: 2px 2px 5px rgb(170, 170, 170);
 }
+
+.container-input:hover input ~ .check {
+    background-color: rgb(190, 190, 190);
+}
+
+.container-input input:checked ~ .check {
+    background-color: #1970ff;
+}
+
